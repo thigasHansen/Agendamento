@@ -567,10 +567,18 @@
       color: var(--text-soft);
     }
 
-    .event-filters {
-      display: flex;
-      gap: 8px;
-      margin-top: 8px;
+   .event-filters {
+     display: flex;
+     gap: 8px;
+     margin-top: 8px;
+   }
+    #filter-name {
+      flex: 3;        /* makes the input wider */
+    }
+    
+    #filter-status {
+      flex: 1;        /* makes the dropdown smaller */
+      max-width: 120px; /* optional: hard limit */
     }
 
     .event-filters input {
