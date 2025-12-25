@@ -154,7 +154,7 @@ authForm.addEventListener("submit", async (e) => {
     showCalendar();
   } finally {
     loginBtn.disabled = false;
-    signupBtn.disabled = false;
+    signupBtn.disabled = true;
   }
 });
 
